@@ -1,0 +1,100 @@
+18:56:03 INFO  Starting UsuariosServiceApplication using Java 21.0.3 with PID 19316 (C:\Users\Usuario\Desktop\semester-project\usuarios-service\target\classes started by Usuario in C:\Users\Usuario\Desktop\semester-project\usuarios-service)
+18:56:03 INFO  No active profile set, falling back to 1 default profile: "default"
+18:56:03 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:56:03 INFO  Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interface.
+18:56:03 INFO  Tomcat initialized with port 9091 (http)
+18:56:03 INFO  Starting service [Tomcat]
+18:56:03 INFO  Starting Servlet engine: [Apache Tomcat/11.0.21]
+18:56:03 INFO  Root WebApplicationContext: initialization completed in 139 ms
+18:56:03 INFO  HikariPool-2 - Starting...
+18:56:03 INFO  HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11f07294
+18:56:03 INFO  HikariPool-2 - Start completed.
+18:56:03 INFO  Reading from bd_usuarios.databasechangelog
+18:56:03 INFO  Database is up to date, no changesets to execute
+18:56:03 INFO  Reading from bd_usuarios.databasechangelog
+18:56:03 INFO  UPDATE SUMMARY
+18:56:03 INFO  Run:                          0
+18:56:03 INFO  Previously run:               2
+18:56:03 INFO  Filtered out:                 0
+18:56:03 INFO  -------------------------------
+18:56:03 INFO  Total change sets:            2
+18:56:03 INFO  Update summary generated
+18:56:03 INFO  Command execution complete
+18:56:03 INFO  HHH008540: Processing PersistenceUnitInfo [name: default]
+18:56:03 INFO  No LoadTimeWeaver setup: ignoring JPA class transformer
+18:56:03 WARN  HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+18:56:03 INFO  HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_usuarios?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_usuarios/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+18:56:03 INFO  HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+18:56:03 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:56:03 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:56:03 INFO  Tomcat started on port 9091 (http) with context path '/'
+18:56:03 INFO  Started UsuariosServiceApplication in 0.36 seconds (process running for 321.408)
+18:56:03 INFO  Condition evaluation unchanged
+18:56:28 INFO  Starting UsuariosServiceApplication using Java 21.0.3 with PID 39444 (C:\Users\Usuario\Desktop\semester-project\usuarios-service\target\classes started by Usuario in C:\Users\Usuario\Desktop\semester-project\usuarios-service)
+18:56:28 INFO  No active profile set, falling back to 1 default profile: "default"
+18:56:28 INFO  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:56:28 INFO  For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18:56:28 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:56:28 INFO  Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+18:56:28 INFO  Tomcat initialized with port 9091 (http)
+18:56:28 INFO  Starting service [Tomcat]
+18:56:28 INFO  Starting Servlet engine: [Apache Tomcat/11.0.21]
+18:56:28 INFO  Root WebApplicationContext: initialization completed in 620 ms
+18:56:28 INFO  HikariPool-1 - Starting...
+18:56:28 INFO  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@bacb51f
+18:56:28 INFO  HikariPool-1 - Start completed.
+18:56:30 INFO  Reading from bd_usuarios.databasechangelog
+18:56:30 INFO  Database is up to date, no changesets to execute
+18:56:30 INFO  Reading from bd_usuarios.databasechangelog
+18:56:30 INFO  UPDATE SUMMARY
+18:56:30 INFO  Run:                          0
+18:56:30 INFO  Previously run:               2
+18:56:30 INFO  Filtered out:                 0
+18:56:30 INFO  -------------------------------
+18:56:30 INFO  Total change sets:            2
+18:56:30 INFO  Update summary generated
+18:56:30 INFO  Command execution complete
+18:56:30 INFO  HHH008540: Processing PersistenceUnitInfo [name: default]
+18:56:30 INFO  HHH000001: Hibernate ORM core version 7.2.12.Final
+18:56:31 INFO  No LoadTimeWeaver setup: ignoring JPA class transformer
+18:56:31 WARN  HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+18:56:31 INFO  HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_usuarios?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_usuarios/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+18:56:31 INFO  HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+18:56:31 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:56:31 INFO  Hibernate is in classpath; If applicable, HQL parser will be used.
+18:56:31 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:56:31 INFO  Tomcat started on port 9091 (http) with context path '/'
+18:56:31 INFO  Started UsuariosServiceApplication in 3.824 seconds (process running for 4.078)
+18:56:39 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:56:39 INFO  Initializing Servlet 'dispatcherServlet'
+18:56:39 INFO  Completed initialization in 1 ms
+18:56:39 INFO  GET /usuarios
+18:56:39 INFO  Listando todos los usuarios
+18:58:14 INFO  Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+18:58:14 INFO  Commencing graceful shutdown. Waiting for active requests to complete
+18:58:14 INFO  Graceful shutdown complete
+18:58:14 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+18:58:14 INFO  HikariPool-1 - Shutdown initiated...
+18:58:14 INFO  HikariPool-1 - Shutdown completed.

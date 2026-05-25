@@ -75,4 +75,9 @@ public class CineController {
         cineService.delete(id);
         return ResponseEntity.noContent().build();
     }
+
+    @GetMapping("/{id}/exists")
+    public ResponseEntity<Boolean> existeCliente(@PathVariable Long id) {
+        return ResponseEntity.ok(cineService.existById(id));
+    }
 }

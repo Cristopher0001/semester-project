@@ -49,4 +49,8 @@ public class CineService {
         cineRepository.deleteById(id);
     }
 
+    public boolean existById(Long id){
+        return cineRepository.existsById(id);
+    }
+
 }

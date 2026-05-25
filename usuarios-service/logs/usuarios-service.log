@@ -1,0 +1,48 @@
+18:58:14 INFO  Starting UsuariosServiceApplication using Java 21.0.3 with PID 39444 (C:\Users\Usuario\Desktop\semester-project\usuarios-service\target\classes started by Usuario in C:\Users\Usuario\Desktop\semester-project\usuarios-service)
+18:58:14 INFO  No active profile set, falling back to 1 default profile: "default"
+18:58:14 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:58:14 INFO  Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interface.
+18:58:14 INFO  Tomcat initialized with port 9091 (http)
+18:58:14 INFO  Starting service [Tomcat]
+18:58:14 INFO  Starting Servlet engine: [Apache Tomcat/11.0.21]
+18:58:14 INFO  Root WebApplicationContext: initialization completed in 147 ms
+18:58:14 INFO  HikariPool-2 - Starting...
+18:58:14 INFO  HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52d4bee6
+18:58:14 INFO  HikariPool-2 - Start completed.
+18:58:14 INFO  Reading from bd_usuarios.databasechangelog
+18:58:14 INFO  Database is up to date, no changesets to execute
+18:58:14 INFO  Reading from bd_usuarios.databasechangelog
+18:58:14 INFO  UPDATE SUMMARY
+18:58:14 INFO  Run:                          0
+18:58:14 INFO  Previously run:               2
+18:58:14 INFO  Filtered out:                 0
+18:58:14 INFO  -------------------------------
+18:58:14 INFO  Total change sets:            2
+18:58:14 INFO  Update summary generated
+18:58:14 INFO  Command execution complete
+18:58:14 INFO  HHH008540: Processing PersistenceUnitInfo [name: default]
+18:58:14 INFO  No LoadTimeWeaver setup: ignoring JPA class transformer
+18:58:14 WARN  HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+18:58:14 INFO  HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_usuarios?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_usuarios/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+18:58:14 INFO  HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+18:58:14 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:58:14 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:58:14 INFO  Tomcat started on port 9091 (http) with context path '/'
+18:58:14 INFO  Started UsuariosServiceApplication in 0.378 seconds (process running for 107.272)
+18:58:14 INFO  Condition evaluation unchanged
+18:58:19 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:58:19 INFO  Initializing Servlet 'dispatcherServlet'
+18:58:19 INFO  Completed initialization in 0 ms
+18:58:19 INFO  GET /usuarios
+18:58:19 INFO  Listando todos los usuarios

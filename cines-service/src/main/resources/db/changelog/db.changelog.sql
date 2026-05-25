@@ -1,7 +1,7 @@
 -- liquibase formatted sql
 
 -- changeset seba:1
-CREATE TABLE cines (
+CREATE TABLE cine (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(255),
     direccion VARCHAR(255),
@@ -10,7 +10,7 @@ CREATE TABLE cines (
 );
 
 -- changeset seba:2
-INSERT INTO cines(nombre, direccion, ciudad, telefono) VALUES
+INSERT INTO cine(nombre, direccion, ciudad, telefono) VALUES
 ('Cine Plaza Central', 'Av. Libertador 1234', 'Santiago', 911111111),
 ('Cine Star Mall', 'Calle Los Aromos 456', 'Valparaíso', 922222222),
 ('Cinema World', 'Av. Costanera 789', 'Concepción', 933333333),
