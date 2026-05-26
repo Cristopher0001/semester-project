@@ -77,7 +77,7 @@ public class CineController {
     }
 
     @GetMapping("/{id}/exists")
-    public ResponseEntity<Boolean> existeCliente(@PathVariable Long id) {
+    public ResponseEntity<Boolean> existeCine(@PathVariable Long id) {
         return ResponseEntity.ok(cineService.existById(id));
     }
 }
