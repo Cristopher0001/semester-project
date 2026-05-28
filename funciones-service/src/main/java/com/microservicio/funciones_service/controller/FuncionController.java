@@ -1,5 +1,6 @@
 package com.microservicio.funciones_service.controller;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -64,6 +65,32 @@ public class FuncionController {
         }
 
         return ResponseEntity.ok(FuncionDTO.fromModel(funcion));
+    }
+
+    @GetMapping("/precio/{precio}")
+    public ResponseEntity<List<FuncionDTO>> findByPrecio(@PathVariable int precio) {
+        logger.info("GET /funciones/precio/{}", precio);
+
+        List<Funcion> funciones = funcionService.findByPrecio(precio);
+
+        List<FuncionDTO> dtos = funciones.stream()
+                .map(FuncionDTO::fromModel)
+                .collect(Collectors.toList());
+
+        return ResponseEntity.ok(dtos);
+    }
+
+    @GetMapping("/fecha/{fecha}")
+    public ResponseEntity<List<FuncionDTO>> findByFecha(@PathVariable LocalDate fecha) {
+        logger.info("GET /funciones/fecha/{}", fecha);
+
+        List<Funcion> funciones = funcionService.findByFecha(fecha);
+
+        List<FuncionDTO> dtos = funciones.stream()
+                .map(FuncionDTO::fromModel)
+                .collect(Collectors.toList());
+
+        return ResponseEntity.ok(dtos);
     }
 
 

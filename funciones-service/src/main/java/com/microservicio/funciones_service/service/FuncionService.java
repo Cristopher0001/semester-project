@@ -1,5 +1,6 @@
 package com.microservicio.funciones_service.service;
 
+import java.time.LocalDate;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -56,6 +57,17 @@ public class FuncionService {
         return funcion;
     }
 
+
+    public List<Funcion> findByPrecio(int precio) {
+        logger.info("Buscando funcion por precio={}", precio);
+        return funcionRepository.findByPrecio(precio);
+    }
+
+
+    public List<Funcion> findByFecha(LocalDate fecha) {
+        logger.info("Buscan funcion por fecha={}", fecha);
+        return funcionRepository.findByFecha(fecha);
+    }
 
     public List<Funcion> findByPeliculaId(Long peliculaId) {
 
