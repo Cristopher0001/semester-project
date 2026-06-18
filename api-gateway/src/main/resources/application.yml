@@ -33,3 +33,14 @@ spring:
             uri: http://localhost:9095
             predicates:
             - Path=/funciones/**,/entradas/**
+            
+
+          - id: fidelizacion-service
+            uri: http://localhost:9096
+            predicates:
+            - Path=/fidelizaciones/**
+
+          - id: notificacion-service
+            uri: http://localhost:9097
+            predicates:
+            - Path=/notificaciones/**
