@@ -1,0 +1,257 @@
+04:47:49 INFO  Starting FidelizacionServiceApplication using Java 21.0.8 with PID 22564 (C:\Users\aidmith\Downloads\semester-project-main\semester-project-main\fidelizacion-service\target\classes started by aidmith in C:\Users\aidmith\Downloads\semester-project-main\semester-project-main\fidelizacion-service)
+04:47:49 INFO  No active profile set, falling back to 1 default profile: "default"
+04:47:50 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04:47:50 INFO  Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+04:47:50 INFO  Tomcat initialized with port 9096 (http)
+04:47:50 INFO  Starting service [Tomcat]
+04:47:50 INFO  Starting Servlet engine: [Apache Tomcat/11.0.22]
+04:47:50 INFO  Root WebApplicationContext: initialization completed in 1549 ms
+04:47:51 INFO  HikariPool-1 - Starting...
+04:47:51 INFO  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58833798
+04:47:51 INFO  HikariPool-1 - Start completed.
+04:47:53 INFO  Logging exception.
+04:47:53 INFO  ERROR: Exception Details
+04:47:53 INFO  ERROR: Exception Primary Class:  ChangeLogParseException
+04:47:53 INFO  ERROR: Exception Primary Reason:  classpath:/db/changelog/db.changelog-master.yaml does not exist
+04:47:53 INFO  ERROR: Exception Primary Source:  5.0.3
+04:47:53 INFO  Command execution complete
+04:47:53 WARN  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'liquibase' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/liquibase/autoconfigure/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: liquibase.exception.CommandExecutionException: liquibase.exception.ChangeLogParseException: classpath:/db/changelog/db.changelog-master.yaml does not exist
+04:47:53 INFO  HikariPool-1 - Shutdown initiated...
+04:47:53 INFO  HikariPool-1 - Shutdown completed.
+04:47:53 INFO  Stopping service [Tomcat]
+04:47:53 INFO  
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+04:47:53 ERROR 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Liquibase failed to start because no changelog could be found at 'classpath:/db/changelog/db.changelog-master.yaml'.
+
+Action:
+
+Make sure a Liquibase changelog is present at the configured path.
+
+05:18:00 INFO  Starting FidelizacionServiceApplication using Java 21.0.8 with PID 24308 (C:\Users\aidmith\Downloads\semester-project-main\semester-project-main\fidelizacion-service\target\classes started by aidmith in C:\Users\aidmith\Downloads\semester-project-main\semester-project-main\fidelizacion-service)
+05:18:00 INFO  No active profile set, falling back to 1 default profile: "default"
+05:18:01 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+05:18:02 INFO  Finished Spring Data repository scanning in 116 ms. Found 1 JPA repository interface.
+05:18:03 INFO  Tomcat initialized with port 9096 (http)
+05:18:03 INFO  Starting service [Tomcat]
+05:18:03 INFO  Starting Servlet engine: [Apache Tomcat/11.0.22]
+05:18:03 INFO  Root WebApplicationContext: initialization completed in 3268 ms
+05:18:04 INFO  HikariPool-1 - Starting...
+05:18:04 INFO  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d325518
+05:18:04 INFO  HikariPool-1 - Start completed.
+05:18:08 INFO  Logging exception.
+05:18:08 INFO  ERROR: Exception Details
+05:18:08 INFO  ERROR: Exception Primary Class:  ChangeLogParseException
+05:18:08 INFO  ERROR: Exception Primary Reason:  classpath:/db/changelog/db.changelog-master.yaml does not exist
+05:18:08 INFO  ERROR: Exception Primary Source:  5.0.3
+05:18:08 INFO  Command execution complete
+05:18:08 WARN  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'liquibase' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/liquibase/autoconfigure/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: liquibase.exception.CommandExecutionException: liquibase.exception.ChangeLogParseException: classpath:/db/changelog/db.changelog-master.yaml does not exist
+05:18:08 INFO  HikariPool-1 - Shutdown initiated...
+05:18:08 INFO  HikariPool-1 - Shutdown completed.
+05:18:08 INFO  Stopping service [Tomcat]
+05:18:08 INFO  
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+05:18:08 ERROR 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Liquibase failed to start because no changelog could be found at 'classpath:/db/changelog/db.changelog-master.yaml'.
+
+Action:
+
+Make sure a Liquibase changelog is present at the configured path.
+
+05:20:26 INFO  Starting FidelizacionServiceApplication using Java 21.0.8 with PID 8160 (C:\Users\aidmith\Downloads\semester-project-main\semester-project-main\fidelizacion-service\target\classes started by aidmith in C:\Users\aidmith\Downloads\semester-project-main\semester-project-main\fidelizacion-service)
+05:20:26 INFO  No active profile set, falling back to 1 default profile: "default"
+05:20:28 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+05:20:28 INFO  Finished Spring Data repository scanning in 142 ms. Found 1 JPA repository interface.
+05:20:29 INFO  Tomcat initialized with port 9096 (http)
+05:20:29 INFO  Starting service [Tomcat]
+05:20:29 INFO  Starting Servlet engine: [Apache Tomcat/11.0.22]
+05:20:30 INFO  Root WebApplicationContext: initialization completed in 3515 ms
+05:20:30 INFO  HikariPool-1 - Starting...
+05:20:31 INFO  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@623e0631
+05:20:31 INFO  HikariPool-1 - Start completed.
+05:20:34 INFO  Creating database changelog table with name: bd_fidelizacion.databasechangelog
+05:20:34 INFO  Reading from bd_fidelizacion.databasechangelog
+05:20:34 INFO  Creating snapshot
+05:20:35 INFO  Name 'PK_DATABASECHANGELOGLOCK' ignored for PRIMARY key.
+05:20:35 INFO  Successfully acquired change log lock
+05:20:35 INFO  Using deploymentId: 1774430541
+05:20:35 INFO  Reading from bd_fidelizacion.databasechangelog
+05:20:35 INFO  Running Changeset: db/changelog/db.changelog.sql::1::aju
+05:20:35 INFO  Custom SQL executed
+05:20:35 INFO  ChangeSet db/changelog/db.changelog.sql::1::aju ran successfully in 79ms
+05:20:35 INFO  Running Changeset: db/changelog/db.changelog.sql::2::aju
+05:20:35 INFO  Custom SQL executed
+05:20:35 INFO  ChangeSet db/changelog/db.changelog.sql::2::aju ran successfully in 37ms
+05:20:35 INFO  UPDATE SUMMARY
+05:20:35 INFO  Run:                          2
+05:20:35 INFO  Previously run:               0
+05:20:35 INFO  Filtered out:                 0
+05:20:35 INFO  -------------------------------
+05:20:35 INFO  Total change sets:            2
+05:20:35 INFO  Update summary generated
+05:20:35 INFO  Update command completed successfully.
+05:20:35 INFO  Liquibase: Update has been successful. Rows affected: 5
+05:20:35 INFO  Successfully released change log lock
+05:20:35 INFO  Command execution complete
+05:20:36 INFO  HHH008540: Processing PersistenceUnitInfo [name: default]
+05:20:36 INFO  HHH000001: Hibernate ORM core version 7.2.19.Final
+05:20:37 INFO  No LoadTimeWeaver setup: ignoring JPA class transformer
+05:20:37 WARN  HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+05:20:37 INFO  HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_fidelizacion?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_fidelizacion/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+05:20:39 INFO  HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+05:20:39 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+05:20:39 INFO  Hibernate is in classpath; If applicable, HQL parser will be used.
+05:20:40 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05:20:40 INFO  Tomcat started on port 9096 (http) with context path '/'
+05:20:41 INFO  Started FidelizacionServiceApplication in 15.923 seconds (process running for 16.895)
+05:31:30 INFO  Starting FidelizacionServiceApplication using Java 21.0.8 with PID 6576 (C:\Users\aidmith\Downloads\semester-project-main\semester-project-main\fidelizacion-service\target\classes started by aidmith in C:\Users\aidmith\Downloads\semester-project-main\semester-project-main\fidelizacion-service)
+05:31:30 INFO  No active profile set, falling back to 1 default profile: "default"
+05:31:32 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+05:31:32 INFO  Finished Spring Data repository scanning in 168 ms. Found 1 JPA repository interface.
+05:31:33 INFO  Tomcat initialized with port 9096 (http)
+05:31:33 INFO  Starting service [Tomcat]
+05:31:33 INFO  Starting Servlet engine: [Apache Tomcat/11.0.22]
+05:31:34 INFO  Root WebApplicationContext: initialization completed in 3503 ms
+05:31:34 INFO  HikariPool-1 - Starting...
+05:31:35 INFO  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@623e0631
+05:31:35 INFO  HikariPool-1 - Start completed.
+05:31:40 INFO  Reading from bd_fidelizacion.databasechangelog
+05:31:40 INFO  Database is up to date, no changesets to execute
+05:31:40 INFO  Reading from bd_fidelizacion.databasechangelog
+05:31:40 INFO  UPDATE SUMMARY
+05:31:40 INFO  Run:                          0
+05:31:40 INFO  Previously run:               2
+05:31:40 INFO  Filtered out:                 0
+05:31:40 INFO  -------------------------------
+05:31:40 INFO  Total change sets:            2
+05:31:40 INFO  Update summary generated
+05:31:40 INFO  Command execution complete
+05:31:40 INFO  HHH008540: Processing PersistenceUnitInfo [name: default]
+05:31:40 INFO  HHH000001: Hibernate ORM core version 7.2.19.Final
+05:31:41 INFO  No LoadTimeWeaver setup: ignoring JPA class transformer
+05:31:42 WARN  HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+05:31:42 INFO  HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_fidelizacion?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_fidelizacion/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+05:31:43 INFO  HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+05:31:43 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+05:31:44 INFO  Hibernate is in classpath; If applicable, HQL parser will be used.
+05:31:44 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05:31:45 INFO  Tomcat started on port 9096 (http) with context path '/'
+05:31:45 INFO  Started FidelizacionServiceApplication in 16.237 seconds (process running for 17.478)
+05:42:27 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+05:42:27 INFO  Initializing Servlet 'dispatcherServlet'
+05:42:28 INFO  Completed initialization in 90 ms
+05:45:56 INFO  GET /fidelizaciones
+05:45:56 INFO  Listando todas las fidelizaciones
+05:47:19 INFO  GET /fidelizaciones
+05:47:19 INFO  Listando todas las fidelizaciones
+05:48:32 INFO  POST /fidelizaciones
+05:48:32 INFO  Guardando fidelizacion para usuario 6
+05:48:32 INFO  Fidelizacion guardada con id=6
+05:48:43 INFO  GET /fidelizaciones
+05:48:43 INFO  Listando todas las fidelizaciones
+05:49:23 WARN  Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+05:49:35 INFO  GET /fidelizaciones
+05:49:35 INFO  Listando todas las fidelizaciones
+05:49:57 INFO  PUT /fidelizaciones/6
+05:49:57 INFO  Actualizando fidelizacion id=6
+05:49:57 INFO  Fidelizacion actualizada id=6
+05:50:04 INFO  PUT /fidelizaciones/6
+05:50:04 INFO  Actualizando fidelizacion id=6
+05:50:05 INFO  Fidelizacion actualizada id=6
+05:50:08 INFO  GET /fidelizaciones/6
+05:50:08 INFO  Buscando fidelizacion id=6
+05:50:14 INFO  GET /fidelizaciones
+05:50:14 INFO  Listando todas las fidelizaciones
+05:50:39 INFO  GET /fidelizaciones
+05:50:39 INFO  Listando todas las fidelizaciones
+05:53:05 INFO  GET /fidelizaciones
+05:53:05 INFO  Listando todas las fidelizaciones
+05:54:03 INFO  GET /fidelizaciones
+05:54:03 INFO  Listando todas las fidelizaciones
+18:36:54 INFO  Starting FidelizacionServiceApplication using Java 21.0.8 with PID 27048 (C:\Users\aidmith\Downloads\semester-project-main\semester-project-main\fidelizacion-service\target\classes started by aidmith in C:\Users\aidmith\Downloads\semester-project-main\semester-project-main\fidelizacion-service)
+18:36:54 INFO  No active profile set, falling back to 1 default profile: "default"
+18:36:55 INFO  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:36:55 INFO  Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
+18:36:56 INFO  Tomcat initialized with port 9096 (http)
+18:36:56 INFO  Starting service [Tomcat]
+18:36:56 INFO  Starting Servlet engine: [Apache Tomcat/11.0.22]
+18:36:56 INFO  Root WebApplicationContext: initialization completed in 1682 ms
+18:36:56 INFO  HikariPool-1 - Starting...
+18:36:56 INFO  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d325518
+18:36:56 INFO  HikariPool-1 - Start completed.
+18:36:59 INFO  Reading from bd_fidelizacion.databasechangelog
+18:36:59 INFO  Database is up to date, no changesets to execute
+18:36:59 INFO  Reading from bd_fidelizacion.databasechangelog
+18:36:59 INFO  UPDATE SUMMARY
+18:36:59 INFO  Run:                          0
+18:36:59 INFO  Previously run:               2
+18:36:59 INFO  Filtered out:                 0
+18:36:59 INFO  -------------------------------
+18:36:59 INFO  Total change sets:            2
+18:36:59 INFO  Update summary generated
+18:36:59 INFO  Command execution complete
+18:36:59 INFO  HHH008540: Processing PersistenceUnitInfo [name: default]
+18:36:59 INFO  HHH000001: Hibernate ORM core version 7.2.19.Final
+18:36:59 INFO  No LoadTimeWeaver setup: ignoring JPA class transformer
+18:37:00 WARN  HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+18:37:00 INFO  HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bd_fidelizacion?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: bd_fidelizacion/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+18:37:01 INFO  HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+18:37:01 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:37:01 INFO  Hibernate is in classpath; If applicable, HQL parser will be used.
+18:37:01 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:37:02 INFO  Tomcat started on port 9096 (http) with context path '/'
+18:37:02 INFO  Started FidelizacionServiceApplication in 8.425 seconds (process running for 9.072)
+18:38:32 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:38:32 INFO  Initializing Servlet 'dispatcherServlet'
+18:38:32 INFO  Completed initialization in 0 ms
+18:38:32 INFO  GET /fidelizaciones
+18:38:32 INFO  Listando todas las fidelizaciones
